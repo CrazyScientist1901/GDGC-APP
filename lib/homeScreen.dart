@@ -8,6 +8,7 @@ class HomeScreen extends StatelessWidget {
 
   Future<void> _pickImage(BuildContext context, ImageSource source) async {
     // Placeholder code: Image picking will happen here during the event
+
   }
 
   @override
@@ -48,11 +49,13 @@ class HomeScreen extends StatelessWidget {
               padding: EdgeInsets.all(isSmallScreen ? 16.0 : 24.0),
               child: Row(
                 children: [
-                  Expanded(child: SizedBox(),
+                  Expanded(
+                    child: SizedBox(),
                     // during event
                   ),
                   SizedBox(width: isSmallScreen ? 12 : 20),
-                  Expanded(child: SizedBox(),
+                  Expanded(
+                    child: SizedBox(),
                     // during event
                   ),
                 ],
